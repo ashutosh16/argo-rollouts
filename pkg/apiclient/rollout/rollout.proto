@@ -148,6 +148,11 @@ message JobInfo {
   k8s.io.apimachinery.pkg.apis.meta.v1.Time startedAt = 5;
 }
 
+message AnalysisRunSpecAndStatus {
+  github.com.argoproj.argo_rollouts.pkg.apis.rollouts.v1alpha1.AnalysisRunSpec spec = 1;
+  github.com.argoproj.argo_rollouts.pkg.apis.rollouts.v1alpha1.AnalysisRunStatus status = 2;
+}
+
 message AnalysisRunInfo {
   k8s.io.apimachinery.pkg.apis.meta.v1.ObjectMeta objectMeta = 1;
   string icon = 2;
@@ -160,6 +165,7 @@ message AnalysisRunInfo {
   repeated JobInfo jobs = 9;
   repeated NonJobInfo nonJobInfo = 10;
   repeated Metrics metrics = 11;
+  AnalysisRunSpecAndStatus analysisRunSpecAndStatus = 12;
 }
 
 message NonJobInfo {
