@@ -1,0 +1,119 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  annotations:
+    notifications.argoproj.io/subscriptions: >
+      - trigger: [on-analysis-run-error, on-analysis-run-failed,
+      on-analysis-run-running, on-rollout-aborted, on-rollout-completed,
+      on-rollout-paused, on-rollout-step-completed, on-rollout-updated,
+      on-scaling-replica-set]
+        destinations:
+          - service: slack
+            recipients: [davey-jones-locker]
+    rollout.argoproj.io/desired-replicas: '3'
+    rollout.argoproj.io/ephemeral-metadata: '{"labels":{"release-stage":"canary","service-role":"live"}}'
+    rollout.argoproj.io/revision: '3'
+  creationTimestamp: '2024-02-07T00:15:50Z'
+  generation: 1
+  labels:
+    app.kubernetes.io/component: service
+    app.kubernetes.io/instance: scratch
+    app.kubernetes.io/name: meeech-old-timey-service
+    name: meeech-old-timey-service-1
+    rollouts-pod-template-hash: 66b8bbdd6c
+    service-role: live
+    tags.datadoghq.com/env: local
+    tags.datadoghq.com/service: meeech-old-timey-service
+    tags.datadoghq.com/version: 1.0.0
+  name: scratch-meeech-old-timey-service-66b8bbdd6c
+  namespace: testns1
+  ownerReferences:
+    - apiVersion: argoproj.io/v1alpha1
+      blockOwnerDeletion: true
+      controller: true
+      kind: Rollout
+      name: scratch-meeech-old-timey-service
+      uid: df8c0c88-3e2b-4c1c-873d-f98388dad666
+  resourceVersion: '196114'
+  uid: 37bdb1bc-fbec-450f-9ad1-73aa7772ab46
+spec:
+  replicas: 0
+  selector:
+    matchLabels:
+      app.kubernetes.io/instance: scratch
+      app.kubernetes.io/name: meeech-old-timey-service
+      rollouts-pod-template-hash: 66b8bbdd6c
+  template:
+    metadata:
+      annotations:
+        randomToForceNewRS: '12'
+      creationTimestamp: null
+      labels:
+        app.kubernetes.io/component: service
+        app.kubernetes.io/instance: scratch
+        app.kubernetes.io/name: meeech-old-timey-service
+        name: meeech-old-timey-service-1
+        release-stage: canary
+        rollouts-pod-template-hash: 66b8bbdd6c
+        service-role: live
+        tags.datadoghq.com/env: local
+        tags.datadoghq.com/service: meeech-old-timey-service
+        tags.datadoghq.com/version: 1.0.0
+    spec:
+      containers:
+        - env:
+            - name: HTTP_PORT
+              value: '8080'
+            - name: K8S_POD_NAME
+              valueFrom:
+                fieldRef:
+                  apiVersion: v1
+                  fieldPath: metadata.name
+            - name: K8S_POD_NAMESPACE
+              valueFrom:
+                fieldRef:
+                  apiVersion: v1
+                  fieldPath: metadata.namespace
+            - name: K8S_POD_IP
+              valueFrom:
+                fieldRef:
+                  apiVersion: v1
+                  fieldPath: status.podIP
+          image: 'ghcr.io/argocon22workshop/rollouts-demo:yellow'
+          imagePullPolicy: IfNotPresent
+          name: meeech-old-timey-service
+          ports:
+            - containerPort: 8080
+              name: http
+              protocol: TCP
+          resources:
+            limits:
+              memory: 30Mi
+            requests:
+              memory: 8Mi
+          securityContext: {}
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+          volumeMounts:
+            - mountPath: /etc/podinfo
+              name: podinfo
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext: {}
+      serviceAccount: scratch-meeech-old-timey-service
+      serviceAccountName: scratch-meeech-old-timey-service
+      terminationGracePeriodSeconds: 30
+      volumes:
+        - downwardAPI:
+            defaultMode: 420
+            items:
+              - fieldRef:
+                  apiVersion: v1
+                  fieldPath: 'metadata.labels[''release-stage'']'
+                path: release-stage
+          name: podinfo
+status:
+  observedGeneration: 1
+  replicas: 0
+

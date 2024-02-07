@@ -1,0 +1,251 @@
+INFO[0984] Start processing                              resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Notification trigger: on-analysis-run-error, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-analysis-run-failed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-analysis-run-running, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-aborted, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-completed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-paused, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-step-completed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-updated, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-scaling-replica-set, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Trigger on-rollout-aborted result: []         resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-updated result: []         resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-scaling-replica-set result: []     resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-analysis-run-error result: []      resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-completed result: []       resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-analysis-run-failed result: []     resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-analysis-run-running result: []    resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-paused result: []          resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-step-completed result: []  resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Notification trigger: on-analysis-run-error, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-analysis-run-failed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-analysis-run-running, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-aborted, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-completed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-paused, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-step-completed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-updated, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-scaling-replica-set, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Trigger on-analysis-run-running result: []    resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-completed result: []       resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-aborted result: []         resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-analysis-run-failed result: []     resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-scaling-replica-set result: []     resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-step-completed result: []  resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-updated result: []         resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-paused result: []          resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-analysis-run-error result: []      resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Processing completed                          resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Started syncing rollout                       generation=4 namespace=testns1 resourceVersion=196562 rollout=scratch-meeech-old-timey-service
+INFO[0984] Pod template change detected (new: 76b66cd658, old: 66b8bbdd6c)  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Assuming 76b66cd658 for new replicaset pod hash  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Pod template change detected (new: 76b66cd658, old: 66b8bbdd6c)  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Timed out (false) [last progress check: 2024-02-06 16:15:51 -0800 PST - now: 2024-02-06 16:24:56.951668 -0800 PST m=+984.065168835]  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Patched: {"status":{"currentPodHash":"76b66cd658","observedGeneration":"4"}}  generation=4 namespace=testns1 resourceVersion=196562 rollout=scratch-meeech-old-timey-service
+INFO[0984] persisted to informer                         generation=4 namespace=testns1 resourceVersion=196564 rollout=scratch-meeech-old-timey-service
+INFO[0984] Reconciliation completed                      generation=4 namespace=testns1 resourceVersion=196562 rollout=scratch-meeech-old-timey-service time_ms=19.251375
+INFO[0984] Start processing                              resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Notification trigger: on-analysis-run-error, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-analysis-run-failed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-analysis-run-running, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-aborted, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-completed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-paused, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-step-completed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-updated, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-scaling-replica-set, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Trigger on-analysis-run-running result: []    resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-aborted result: []         resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-completed result: []       resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-paused result: []          resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-updated result: []         resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-analysis-run-error result: []      resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-step-completed result: []  resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-scaling-replica-set result: []     resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-analysis-run-failed result: []     resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Notification trigger: on-analysis-run-error, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-analysis-run-failed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-analysis-run-running, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-aborted, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-completed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-paused, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-step-completed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-updated, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-scaling-replica-set, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Trigger on-analysis-run-running result: []    resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-updated result: []         resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-scaling-replica-set result: []     resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-analysis-run-error result: []      resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-aborted result: []         resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-paused result: []          resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-step-completed result: []  resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-analysis-run-failed result: []     resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-completed result: []       resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Processing completed                          resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Started syncing rollout                       generation=4 namespace=testns1 resourceVersion=196564 rollout=scratch-meeech-old-timey-service
+INFO[0984] Updating replica set 'scratch-meeech-old-timey-service-76b66cd658' revision from 0 to 4  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Enqueueing parent of testns1/scratch-meeech-old-timey-service-76b66cd658: Rollout testns1/scratch-meeech-old-timey-service 
+INFO[0984] Created ReplicaSet scratch-meeech-old-timey-service-76b66cd658  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Enqueueing parent of testns1/scratch-meeech-old-timey-service-76b66cd658: Rollout testns1/scratch-meeech-old-timey-service 
+INFO[0984] unknown field "spec.template.metadata.creationTimestamp" 
+INFO[0984] Event(v1.ObjectReference{Kind:"Rollout", Namespace:"testns1", Name:"scratch-meeech-old-timey-service", UID:"df8c0c88-3e2b-4c1c-873d-f98388dad666", APIVersion:"argoproj.io/v1alpha1", ResourceVersion:"196568", FieldPath:""}): type: 'Normal' reason: 'RolloutUpdated' Rollout updated to revision 4 
+INFO[0984] Notification trigger: on-analysis-run-error, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-analysis-run-failed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-analysis-run-running, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-aborted, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-completed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-paused, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-step-completed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-updated, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-scaling-replica-set, service: slack, recipient: [davey-jones-locker]  
+ERRO[0984] Failed to run trigger, trigger: on-rollout-updated, destination: {slack davey-jones-locker}, namespace config:  : trigger 'on-rollout-updated' is not configured 
+ERRO[0984] Notifications failed to send for eventReason RolloutUpdated with error: [trigger 'on-rollout-updated' is not configured]  event_reason=RolloutUpdated namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Notification trigger: on-analysis-run-error, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-analysis-run-failed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-analysis-run-running, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-aborted, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-completed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-paused, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-step-completed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-updated, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-scaling-replica-set, service: slack, recipient: [davey-jones-locker]  
+ERRO[0984] Failed to run trigger, trigger: on-rollout-updated, destination: {slack davey-jones-locker}, namespace config:  : trigger 'on-rollout-updated' is not configured 
+ERRO[0984] Notifications failed to send for eventReason RolloutUpdated with error: [trigger 'on-rollout-updated' is not configured]  event_reason=RolloutUpdated namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Rollout updated to revision 4                 event_reason=RolloutUpdated namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Notification trigger: on-analysis-run-error, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-analysis-run-failed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-analysis-run-running, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-aborted, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-completed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-paused, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-step-completed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-updated, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-scaling-replica-set, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Event(v1.ObjectReference{Kind:"Rollout", Namespace:"testns1", Name:"scratch-meeech-old-timey-service", UID:"df8c0c88-3e2b-4c1c-873d-f98388dad666", APIVersion:"argoproj.io/v1alpha1", ResourceVersion:"196568", FieldPath:""}): type: 'Normal' reason: 'NewReplicaSetCreated' Created ReplicaSet scratch-meeech-old-timey-service-76b66cd658 (revision 4) 
+INFO[0984] Notification trigger: on-analysis-run-error, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-analysis-run-failed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-analysis-run-running, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-aborted, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-completed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-paused, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-step-completed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-updated, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-scaling-replica-set, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Created ReplicaSet scratch-meeech-old-timey-service-76b66cd658 (revision 4)  event_reason=NewReplicaSetCreated namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Start processing                              resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Notification trigger: on-analysis-run-error, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-analysis-run-failed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-analysis-run-running, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-aborted, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-completed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-paused, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-step-completed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-updated, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-scaling-replica-set, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Trigger on-analysis-run-error result: []      resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-scaling-replica-set result: []     resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-analysis-run-failed result: []     resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-paused result: []          resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-updated result: []         resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-analysis-run-running result: []    resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-step-completed result: []  resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-aborted result: []         resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-completed result: []       resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Notification trigger: on-analysis-run-error, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-analysis-run-failed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-analysis-run-running, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-aborted, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-completed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-paused, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-step-completed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-updated, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-scaling-replica-set, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Trigger on-analysis-run-error result: []      resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-analysis-run-failed result: []     resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-paused result: []          resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-aborted result: []         resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-completed result: []       resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-step-completed result: []  resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-analysis-run-running result: []    resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-updated result: []         resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-scaling-replica-set result: []     resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Processing completed                          resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] unknown field "spec.template.metadata.creationTimestamp" 
+INFO[0984] Set rollout condition: &RolloutCondition{Type:Progressing,Status:True,LastUpdateTime:2024-02-06 16:24:56.988775 -0800 PST m=+984.102275751,LastTransitionTime:2024-02-06 16:24:56.988775 -0800 PST m=+984.102275835,Reason:NewReplicaSetCreated,Message:Created new replica set "scratch-meeech-old-timey-service-76b66cd658",}  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Start processing                              resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Notification trigger: on-analysis-run-error, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-analysis-run-failed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-analysis-run-running, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-aborted, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-completed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-paused, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-step-completed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-updated, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-scaling-replica-set, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Trigger on-rollout-step-completed result: []  resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-analysis-run-running result: []    resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-completed result: []       resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-updated result: []         resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-scaling-replica-set result: []     resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-analysis-run-failed result: []     resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-paused result: []          resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-analysis-run-error result: []      resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-aborted result: []         resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Notification trigger: on-analysis-run-error, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-analysis-run-failed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-analysis-run-running, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-aborted, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-completed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-paused, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-step-completed, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-rollout-updated, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Notification trigger: on-scaling-replica-set, service: slack, recipient: [davey-jones-locker]  
+INFO[0984] Trigger on-scaling-replica-set result: []     resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-paused result: []          resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-analysis-run-error result: []      resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-analysis-run-running result: []    resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-aborted result: []         resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-completed result: []       resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-step-completed result: []  resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-rollout-updated result: []         resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Trigger on-analysis-run-failed result: []     resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Processing completed                          resource=testns1/scratch-meeech-old-timey-service
+INFO[0984] Enqueueing parent of testns1/scratch-meeech-old-timey-service-66b8bbdd6c: Rollout testns1/scratch-meeech-old-timey-service 
+INFO[0984] synced ephemeral metadata nil to ReplicaSet scratch-meeech-old-timey-service-66b8bbdd6c  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] delaying service switch from fb6f59765 to 76b66cd658: ReplicaSet has zero availability  namespace=testns1 rollout=scratch-meeech-old-timey-service service=scratch-meeech-old-timey-service-canary
+INFO[0984] No TrafficRouting Reconcilers found           namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Reconciling 1 old ReplicaSets (total pods: 1)  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Found 1 available pods in old RS testns1/scratch-meeech-old-timey-service-fb6f59765  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Found 4 available pods, scaling down old RSes (minAvailable: 3, maxScaleDown: 1)  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Skip scale down of older RS 'scratch-meeech-old-timey-service-fb6f59765': still referenced  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Timed out (false) [last progress check: 2024-02-06 16:24:56 -0800 PST - now: 2024-02-06 16:24:57.006838 -0800 PST m=+984.120338001]  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] No status changes. Skipping patch             generation=4 namespace=testns1 resourceVersion=196570 rollout=scratch-meeech-old-timey-service
+INFO[0984] Queueing up rollout for a progress after 598s  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] persisted to informer                         generation=4 namespace=testns1 resourceVersion=196570 rollout=scratch-meeech-old-timey-service
+INFO[0984] Reconciliation completed                      generation=4 namespace=testns1 resourceVersion=196564 rollout=scratch-meeech-old-timey-service time_ms=40.320125
+INFO[0984] Enqueueing parent of testns1/scratch-meeech-old-timey-service-66b8bbdd6c: Rollout testns1/scratch-meeech-old-timey-service 
+INFO[0984] Started syncing rollout                       generation=4 namespace=testns1 resourceVersion=196570 rollout=scratch-meeech-old-timey-service
+INFO[0984] delaying service switch from fb6f59765 to 76b66cd658: ReplicaSet has zero availability  namespace=testns1 rollout=scratch-meeech-old-timey-service service=scratch-meeech-old-timey-service-canary
+INFO[0984] No TrafficRouting Reconcilers found           namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Reconciling 1 old ReplicaSets (total pods: 1)  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Found 1 available pods in old RS testns1/scratch-meeech-old-timey-service-fb6f59765  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Found 4 available pods, scaling down old RSes (minAvailable: 3, maxScaleDown: 1)  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Skip scale down of older RS 'scratch-meeech-old-timey-service-fb6f59765': still referenced  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Timed out (false) [last progress check: 2024-02-06 16:24:56 -0800 PST - now: 2024-02-06 16:24:57.010598 -0800 PST m=+984.124098085]  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] No status changes. Skipping patch             generation=4 namespace=testns1 resourceVersion=196570 rollout=scratch-meeech-old-timey-service
+INFO[0984] Queueing up rollout for a progress after 598s  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Reconciliation completed                      generation=4 namespace=testns1 resourceVersion=196570 rollout=scratch-meeech-old-timey-service time_ms=1.3667079999999998
+INFO[0984] Started syncing rollout                       generation=4 namespace=testns1 resourceVersion=196570 rollout=scratch-meeech-old-timey-service
+INFO[0984] delaying service switch from fb6f59765 to 76b66cd658: ReplicaSet has zero availability  namespace=testns1 rollout=scratch-meeech-old-timey-service service=scratch-meeech-old-timey-service-canary
+INFO[0984] No TrafficRouting Reconcilers found           namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Reconciling 1 old ReplicaSets (total pods: 1)  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Found 1 available pods in old RS testns1/scratch-meeech-old-timey-service-fb6f59765  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Found 4 available pods, scaling down old RSes (minAvailable: 3, maxScaleDown: 1)  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Skip scale down of older RS 'scratch-meeech-old-timey-service-fb6f59765': still referenced  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Timed out (false) [last progress check: 2024-02-06 16:24:56 -0800 PST - now: 2024-02-06 16:24:57.011875 -0800 PST m=+984.125375376]  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] No status changes. Skipping patch             generation=4 namespace=testns1 resourceVersion=196570 rollout=scratch-meeech-old-timey-service
+INFO[0984] Queueing up rollout for a progress after 598s  namespace=testns1 rollout=scratch-meeech-old-timey-service
+INFO[0984] Reconciliation completed                      generation=4 namespace=testns1 resourceVersion=196570 rollout=scratch-meeech-old-timey-service time_ms=1.2486249999999999
+
+
+
