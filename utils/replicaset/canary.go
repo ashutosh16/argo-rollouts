@@ -139,9 +139,9 @@ func CalculateReplicaCountsForBasicCanary(rollout *v1alpha1.Rollout, newRS *apps
 		// set the scaleDownCount again since it's not used again
 		if *newRS.Spec.Replicas+scaleUpCount < desiredNewRSReplicaCount {
 			newRSReplicaCount = *newRS.Spec.Replicas + scaleUpCount
-		} else {
-			newRSReplicaCount = desiredNewRSReplicaCount
 		}
+	} else {
+		newRSReplicaCount = desiredNewRSReplicaCount
 	}
 
 	if GetReplicaCountForReplicaSets(oldRSs) > 0 {
